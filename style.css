@@ -1,3 +1,39 @@
 /* Fonts */
 /* font-family: 'Bebas Neue', cursive; */
 /* font-family: 'Open Sans', sans-serif; */
+
+#title{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 200px;
+    color: #1cac78;
+    position: relative;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.navBar{
+    position: relative;
+    text-align: center;
+}
+
+.navButton{
+    border: none;
+    background: none;
+    font-family: 'Bebas Neue', cursive;
+    font-weight: bolder;
+    font-size: 48px;
+}
+
+.navButton:focus{
+    outline: none;
+}
+
+.navButton:hover{
+    color: #1cac78;
+}
+
+.navDivider{
+    width: 70px;
+    height:auto;
+    display:inline-block;
+}
