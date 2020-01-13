@@ -2,6 +2,14 @@
 /* font-family: 'Bebas Neue', cursive; */
 /* font-family: 'Open Sans', sans-serif; */
 
+@font-face {
+  font-family: myFirstFont;
+  src: url(airstrike.ttf);
+}
+
+.main{
+}
+
 #title{
     font-family: 'Bebas Neue', cursive;
     font-size: 200px;
@@ -36,4 +44,13 @@
     width: 70px;
     height:auto;
     display:inline-block;
+}
+
+.content{
+    margin: auto;
+    vertical-align: middle;
+    text-align: center;
+    width: 851px;
+    height: 479px;
+    border:3px solid #000000;
 }
