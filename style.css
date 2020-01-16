@@ -3,7 +3,7 @@
 /* font-family: 'Open Sans', sans-serif; */
 
 @font-face {
-  font-family: myFirstFont;
+  font-family: airstrike;
   src: url(airstrike.ttf);
 }
 
@@ -47,10 +47,25 @@
 }
 
 .content{
-    margin: auto;
-    vertical-align: middle;
+    margin: 100px auto 0px;
+    width: 1200px;
+    height: 800px;
+    border:6px solid #000000;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+
+#contentText{
     text-align: center;
-    width: 851px;
-    height: 479px;
-    border:3px solid #000000;
+    font-size: 200px;
+    font-family: airstrike;
+}
+
+#greenSlogan{
+    color: #1cac78;
+    font-family: 'Bebas Neue', cursive;
+    font-weight: bolder;
+    font-size: 100px;
+    margin: 0px;
 }
